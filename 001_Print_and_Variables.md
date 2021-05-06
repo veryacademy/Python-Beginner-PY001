@@ -1,4 +1,13 @@
-# Introducing Python basics
+# Introducing Print() Function
+
+## Topics:
+
+* Print() Function
+* Variables
+* Introducing Data Types
+* Basic Calculation Operands
+* String Concatenation
+* The Print Function Syntax
 
 ### Code Examples
 ---
