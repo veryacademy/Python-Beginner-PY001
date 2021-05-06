@@ -126,7 +126,7 @@ print(x, y, z, end=' ++++')
 
 ## 001 Code Challenges
 
-Use the previous code examples to help you complete the code challenges
+Use the previous code examples to help you complete the code challenges:
 ### **Challenge 1-7**
 1. Get comfortable with your environment. Output hello world (if on Windows) using the command prompt start > CMD, the Python IDLE and in the Visual studio code editor terminal.
 2. Create 2 new variables, name and surname. Print the variables so that they appear of individual lines.
@@ -135,3 +135,11 @@ Use the previous code examples to help you complete the code challenges
 5. Calculate the total age of person 1 + person 2 and print the calculated value
 6. Print multiple variables separated by a comma (,) defined by the sep parameter (demonstrated in ex1.1.16)
 7. Create a new variable and store a string. Print the variable so that it outputs 5 times, each time on a new line. 
+
+### Solutions
+---
+### Task 7
+```python
+x = "a"
+print((x+"\n")*5)
+```
