@@ -125,7 +125,7 @@ print(x, y, z, end=' ++++')
 ```
 
 ## 001 Code Challenges
----
+
 Use the previous code examples to help you complete the code challenges
 ### **Challenge 1-7**
 1. Get comfortable with your environment. Output hello world (if on Windows) using the command prompt start > CMD, the Python IDLE and in the Visual studio code editor terminal.
