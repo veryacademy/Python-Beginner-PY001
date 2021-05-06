@@ -138,8 +138,8 @@ Use the previous code examples to help you complete the code challenges:
 
 ### Solutions
 ---
-### Task 7
 ```python
+# Challenge 7 Solution
 x = "a"
 print((x+"\n")*5)
 ```
