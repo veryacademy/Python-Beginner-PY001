@@ -127,7 +127,7 @@ print(x, y, z, end=' ++++')
 ## 001 Code Challenges
 ---
 Use the previous code examples to help you complete the code challenges
-### **Challenge 1-6**
+### **Challenge 1-7**
 1. Get comfortable with your environment. Output hello world (if on Windows) using the command prompt start > CMD, the Python IDLE and in the Visual studio code editor terminal.
 2. Create 2 new variables, name and surname. Print the variables so that they appear of individual lines.
 3. Create a third variable, age. Print the age to appear below the surname
