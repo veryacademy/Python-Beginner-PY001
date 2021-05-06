@@ -43,6 +43,7 @@ print(x, y, z)
 ```
 ```Python
 # ex1.0.6 Casting data types
+# Python is strongly and a dynamically typed language
 x = str("String") # String
 y = int(2) # Integer
 z = float(3.1) # Float
@@ -70,10 +71,12 @@ print(x + y)
 #ex1.0.10 Using basic math operators
 x = 1
 y = 2
+z = 1 + 1
 print(x + y)
 print(x - y)
 print(x * y)
 print(x / y)
+print(z)
 ```
 ```python
 # ex1.0.11 String multiplication
@@ -98,15 +101,25 @@ print(int(x) + y)
 ```
 ```python
 # ex1.1.14 New line character
-print("x") # Behind the scenes \n is used
-print("y")
+print("x") # Behind the scenes \n is used to create
+print("y") # a new line
 print("zander\npark") # Creates a new line after zander
 ```
 ```python
-# ex1.1.15
-name = "first name: zander"
-surname = "surname: park"
-print(name + "\n" + surname)
+# ex1.1.15 New line character with variables and concatenation
+x = "first name: zander"
+y = "surname: park"
+print(x + "\n" + y)
+```
+```python
+# ex1.1.15 The print function syntax
+# print(object(s), sep=separator, end=end, file=file, flush=flush)
+x = "a"
+y = "b"
+z = "c"
+print(x, y, z, sep='\n')
+print(x, y, z, sep=',+')
+print(x, y, z, end=' ++++')
 ```
 
 ## 001 Code Challenges
