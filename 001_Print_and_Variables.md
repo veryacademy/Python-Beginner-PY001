@@ -90,6 +90,21 @@ print(x * y)
 print(x / y)
 print(z)
 ```
+
+### Data Types
+
+Python Arithmetic operators to perform common mathematical operations:
+
+---
+* \+	Addition	x + y	
+* \-	Subtraction	x - y	
+* /	Division	x / y	
+* \*	Multiplication	x * y	
+* %	Modulus	x % y	
+* **	Exponentiation	x ** y	
+* //	Floor division 	x // y
+---
+
 ```python
 # ex1.0.11 String multiplication
 x = "hello"
