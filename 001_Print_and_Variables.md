@@ -24,7 +24,7 @@ x = 1
 print(x)
 ```
 ### Data Types
---
+---
 * Text Type:	str
 * Numeric Types:	int, float, complex
 * Sequence Types:	tuple, list, range
@@ -32,7 +32,7 @@ print(x)
 * Set Types:	set, frozenset
 * Boolean Type:	bool
 * Binary Types:	bytes, bytearray, memoryview
---
+---
 
 ```python
 # ex1.0.5 Example printing different data types
