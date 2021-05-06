@@ -112,7 +112,7 @@ y = "surname: park"
 print(x + "\n" + y)
 ```
 ```python
-# ex1.1.15 The print function syntax
+# ex1.1.16 The print function syntax
 # print(object(s), sep=separator, end=end, file=file, flush=flush)
 x = "a"
 y = "b"
