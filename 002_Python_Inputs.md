@@ -22,7 +22,7 @@ numInput = int(input("Enter your age: "))
 print("Name: " + textInput + "\n" + "Age: " + str(numInput))
 ```
 ```python
-#ex2.0.5
+#ex2.0.5 String Formatting 
 textInput = input("Enter your first name: ")
 numInput = int(input("Enter your age: "))
 print("Name: {} \nAge: {}".format(textInput, numInput))

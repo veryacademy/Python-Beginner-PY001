@@ -84,25 +84,23 @@ print((x + y)*5)
 print((x , y)*5)
 # Output: ('hello', 'world', 'hello', 'world', 'hello', 'world', 'hello', 'world', 'hello', 'world')
 ```
-
-
-
-
 ```python
-# ex1.0.12
-name = "zander"
-number = 1
-print(name + str(number))
+# ex1.0.12 Printing multiple data types
+x = "zander"
+y = 1
+print(x + str(y))
 ```
 ```python
-# ex1.1.013
-number1 = "1"
-number2 = 1
-print(int(number1) + number2)
+# ex1.1.013 Printing multiple data types continued
+x = "1"
+y = 1
+print(int(x) + y)
 ```
 ```python
-# ex1.1.14
-print("zander\npark")
+# ex1.1.14 New line character
+print("x") # Behind the scenes \n is used
+print("y")
+print("zander\npark") # Creates a new line after zander
 ```
 ```python
 # ex1.1.15
