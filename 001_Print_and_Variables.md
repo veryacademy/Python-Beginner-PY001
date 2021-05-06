@@ -25,7 +25,7 @@ print(x)
 ```
 ### Data Types
 
-We focus on str, int and float initially, if you get time, familiarize yourself with the other data types
+We focus on str, int and float initially. If you get time, familiarize yourself with the other data types
 
 ---
 * Text Type:	str
