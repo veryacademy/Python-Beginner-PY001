@@ -119,15 +119,19 @@ y = "b"
 z = "c"
 print(x, y, z, sep='\n')
 print(x, y, z, sep=',+')
+# Output: a,+b,+c
 print(x, y, z, end=' ++++')
+# Output: a b c ++++
 ```
 
 ## 001 Code Challenges
 ---
 Use the previous code examples to help you complete the code challenges
-### **Task 1-4**
+### **Challenge 1-6**
 1. Get comfortable with your environment. Output hello world (if on Windows) using the command prompt start > CMD, the Python IDLE and in the Visual studio code editor terminal.
 2. Create 2 new variables, name and surname. Print the variables so that they appear of individual lines.
 3. Create a third variable, age. Print the age to appear below the surname
 4. Create name, surname and age variables for a new person.
 5. Calculate the total age of person 1 + person 2 and print the calculated value
+6. Print multiple variables separated by a comma (,) defined by the sep parameter (demonstrated in ex1.1.16)
+7. Create a new variable and store a string. Print the variable so that it outputs 5 times, each time on a new line. 
