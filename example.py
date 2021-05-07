@@ -1,2 +1,2 @@
-x = "a"
-print((x+"\n")*5)
+print(bool("Hello World"))
+print(bool(1))

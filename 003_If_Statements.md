@@ -1,7 +1,28 @@
 # Python If statements
 
-## What are we going to learn
-*  
+## Topics:
+
+1. If
+2. If..Else
+3. If..Elif..Else
+
+* Project - Pizza Slice Calculator
+
+### Code Examples
+---
+
+```python
+if condition:           
+   # Statements to execute if
+   # condition is true
+    print(True)
+
+# Comparing two values, the expression is evaluated
+# Python returns the Boolean answer (True or False)
+if 1 == 1:
+    print("True")
+```
+
 Comparison Operators
 * == Equal to and Both conditions must be met
 * != Not equal to or Either condition must be met
@@ -9,50 +30,61 @@ Comparison Operators
 * < Less than
 * \>= Greater than or equal to
 * <= Less than or equal to
-Logical Operators
-* and Both conditions must be met
-* or Either condition must be met
 
-### Code Examples
----
 ```python
 if 1 == 1:
-    #True
-    print("This is true")
+    print("True")
+# Outcome: True
+
 if 1 != 2:
-    #True
-    print("This is true")
+    print("True")
+# Outcome: True
+
 if 1 > 0:
-    #True
-    print("This is true")
+   print("True")
+# Outcome: True
+
 if 1 < 10:
-    #True
-    print("This is true")
+    print("True")
+# Outcome: True
+
 if 1 <= 10:
-    #True
-    print("This is true")
+    print("True")
+# Outcome: True
+
 if 10 >= 10:
-    #True
-    print("This is true")
+    print("True")
+# Outcome: True
 ```
 ```python
-# Boolean 
-# True False
-check1 = int(False)
-print(check1)
-check2 = int(True)
-print(check2)
+# Booleans represent one of two values: True or False.
+x = True
+y = False
+print(r"{x},{y}")
 ```
 ```python
-if check2:
-    #True
-    print("This is true")
+# They can also represent 1 and 0
+x = int(False)
+print(x)
+x = int(True)
+print(x)
+```
+```python
+# Evaluate any value, and give you True or False in return
+print(bool("Hello World"))
+print(bool(1))
+```
+```python
+x = 1
+if x:
+    print("True")
 ```
 ```python
 if True:
-    #True
-    print("This is true of course!")
+    print("True")
 ```
+
+
 ```python
 if True and True:
     #True

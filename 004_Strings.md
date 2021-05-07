@@ -57,7 +57,10 @@ Using keyword arguments
 ```Python
 print('{quantity} {item} cost ${price}'.format(quantity=6,item='bananas',price=1.74))
 ```
-
+```Python
+x = "a"
+print(f"Hey {x}")
+```
 ## 003 Code Challenges
 ---
 Use the previous code examples to help you complete the code challenges

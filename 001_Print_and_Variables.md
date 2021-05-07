@@ -1,4 +1,4 @@
-# Introducing Python
+# Introducing Python Basics
 
 ## Topics:
 
@@ -8,6 +8,7 @@
 * Basic Calculation Operands
 * String Concatenation
 * The Print Function Syntax
+
 
 ### Code Examples
 ---
@@ -161,7 +162,7 @@ Use the previous code examples to help you complete the code challenges:
 4. Create name, surname and age variables for a new person.
 5. Calculate the total age of person 1 + person 2 and print the calculated value
 6. Print multiple variables separated by a comma (,) defined by the sep parameter (demonstrated in ex1.1.16)
-7. Create a new variable and store a string. Print the variable so that it outputs 5 times, each time on a new line. 
+7. Create a new variable and store a string. Print the variable so that it outputs 5 times, each time on a new line.
 
 ### Solutions
 ---
