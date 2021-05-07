@@ -3,10 +3,15 @@
 ## Topics:
 
 1. If
-2. If..Else
-3. If..Elif..Else
+2. Comparison Operators
+3. Booleans
+4. Python Logical Operators
+5. If..Else
+6. If..Elif..Else
+7. Nested If
 
-* Project - Pizza Slice Calculator
+* Project - Username / Password Checker
+* Project - Coin Tiers
 
 ### Code Examples
 ---
@@ -23,7 +28,8 @@ if 1 == 1:
     print("True")
 ```
 
-Comparison Operators
+### Comparison Operators
+---
 * == Equal to and Both conditions must be met
 * != Not equal to or Either condition must be met
 * \> Greater than
@@ -56,6 +62,20 @@ if 10 >= 10:
     print("True")
 # Outcome: True
 ```
+```Python
+if "Hello" == "Hello":
+    print("True")
+# Outcome: True
+```
+```Python
+x = "hello"
+y = "hello"
+if x == y:
+    print("True")
+# Outcome: True
+```
+### Booleans
+---
 ```python
 # Booleans represent one of two values: True or False.
 x = True
@@ -75,38 +95,31 @@ print(bool("Hello World"))
 print(bool(1))
 ```
 ```python
-x = 1
-if x:
-    print("True")
-```
-```python
 if True:
     print("True")
 ```
 
+### Python Logical Operators
+---
+Logical operators are used to combine conditional statements
 
 ```python
 if True and True:
-    #True
-    print("This is true again!")
+    print("True")
 ```
 ```python
 if True or False:
-    #True
-    print("This is true once again!")
+    print("True")
 ```
 ```python
 if 1 == 1 or 2 == 2 or 3 == 3:
     #True
     print("This is true once again!")
 ```
-```python
-if False:
-  #True
-  print("This is true")
-else: 
-  print("Sorry this is incorrect")
-```
+
+### If...Else
+---
+
 ```python
 age = int(input("Enter your age: "))
 requiredAge = 18
@@ -117,17 +130,24 @@ else:
 	yearsToGo = requiredAge % age
 	print("Sorry you have " + str(yearsToGo) + " more years before you can start the course")
 ```
+
+### If...elif...Else
+---
+
 ```python
 int = 15
 
 if int == 1:
-  #True
   print("This is true")
 elif int == 5:
   print(str(int) + " is the number")
 else: 
   print("Sorry we haven't matched the number")
 ```
+
+### Nested If
+---
+
 ```python
 int = 1000
 
@@ -146,17 +166,43 @@ else:
 ## 003 Code Challenges
 ---
 Use the previous code examples to help you complete the code challenges
-### **Task 1-4**
-1. Create an application which will check the users password they enter to the password held in a variable. Write an output for both a failed and successful password match
-2. Only users who correctly enter the password and called by the name of zander should have access to the secret code! Write a program to take the age and name as input and validate their details. If users match correctly print out - you have access, not not, let the user know they can not enter
-3. The user should be able to enter a number of coins they have. Based upon the amount of coins the programme will determine the level Bronze if coins equal 0-20, Silver if the coins entered equals 21-40 and Gold 41+. The programme will output the level to the user based upon the coins entered
+### **Challenge 1 - Password Matching**
+
+Create an application which will check the users password they enter to the password held in a variable. Write an output for both a failed and successful password match.
+
+### Extension - Username Matching
+
+Extending the password matching feature, only users who correctly enter the password and called by the name of zander should have access to the secret code! Extend the application to allow users to input their age and name as well as the password. If usernames and passwords match correctly print out - you have access, if not, let the user know they can not enter.
+
+### **Challenge 2 - Coin Levels**
+
+Create an application so that the user can enter the number of coins they have acquired. Based upon the amount of coins entered, the application will determine the user level. Bronze if coins equal 0-20, Silver if the coins entered equals 21-40 and Gold 41+. The programme will output the level name (Bronze, Silver or Gold) to the user based upon the coins entered.
+
+### **Challenge 3 - Pizza Slices - Continued**
+In the previous challenged we created a pizza slice calculator which will calculate the amount of slices left to eat after the user enters the number of slices they have already eaten - assuming the pizza has a maximum of 12 slices. The problem with this application is that if the user types in more than 12 or less than 0 slices we are presented with a number which is not ideal. For example if the user types in 13 the outcome is -1 slices.
+
+Let's now extend the original application to include a method of capturing the users input to check for numbers out of range. For example we need to validate the number that the users enters so that if the user enters a number below 0 or more than 12 the application will return a message to the user that they have entered a wrong number. The application should only be able to calculate pizza slices when numbers 0-12 have been entered by the user.
+
+#### Original Code:
 
 ```python
-password = "notsafe"
-enterPassword = input("Enter your password: ")
+pizza = 12
+slices = int(input("How many slices have you eaten?: "))
+remaining = pizza - slices
+print(f"Remaining pizza slices: {remaining}")
+```
 
-if password == enterPassword:
+### Solutions
+---
+
+```python
+# Challenge 1 - Matching passwords
+
+x = "notsafe"
+y = input("Enter your password: ")
+
+if x == y:
 	print("Correct password entered")
 else: 
-  print("Sorry, please try again")
+    print("Sorry, please try again")
 ```

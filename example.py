@@ -1,2 +1,4 @@
-print(bool("Hello World"))
-print(bool(1))
+pizza = 12
+slices = int(input("How many slices have you eaten?: "))
+remaining = pizza - slices
+print(f"Remaining pizza slices: {remaining}")

@@ -56,7 +56,7 @@ Create a customer bill application to allow the waiter to input the name of the 
 pizza = 12
 slices = int(input("How many slices have you eaten?: "))
 remaining = pizza - slices
-print("Remaining pizza slices: {remaining}")
+print(f"Remaining pizza slices: {remaining}")
 ```
 
 ```python
