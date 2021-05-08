@@ -54,3 +54,48 @@ for i in words.values():
 for i, v in words.items():
   print(i, v)
 ```
+
+## 009 Code Challenges
+---
+Use the previous code examples to help you complete the code challenges
+### **Challenge 1 - Guess the number game**
+Let's put our new knowledge to the test by creating a number guessing game. First randomly create a number between 1-20, or your preferred range. Now let's ask the user to type in a number between the number range we have selected. The user should be give 4 turns or chances to guess the number. 
+
+Just before the last guess print:
+
+```
+This is your last guess!...
+```
+
+Display a message if the user guesses the right number:
+
+```
+You guessed correctly! 
+The right number was 2
+```
+
+If the user does not guess within 4 turns, display a message:
+
+```
+====
+Sorry! The number was 12
+====
+```
+
+### Solutions
+---
+
+```python
+import random
+x = random.randint(1,20)
+for i in range(0,4):
+    y = int(input("Guess the number between (1-20): "))
+    if i == 2:
+        print("This is your last guess!...")
+    if x == y:
+        print("You guessed correctly! ")
+        print(f"The right number was {x}")
+        break
+if y != x:
+    print(f"====\nSorry! The number was {x}\n====")
+```

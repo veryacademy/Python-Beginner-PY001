@@ -1,4 +1,4 @@
-# Python If statements
+# Introducing Python Basics
 
 ## Topics:
 
@@ -10,8 +10,9 @@
 6. If..Elif..Else
 7. Nested If
 
-* Project - Username / Password Checker
-* Project - Coin Tiers
+* Challenge - Username / Password Checker
+* Challenge - Coin Tiers
+* Challenge - Pizza Slices - Continued
 
 ### Code Examples
 ---
