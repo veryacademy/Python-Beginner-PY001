@@ -3,6 +3,7 @@
 ## Topics:
 
 * Print() Function
+* Python Trace-back error reporting
 * Variables
 * Introducing Data Types
 * Basic Calculation Operands
@@ -17,6 +18,15 @@
 print("hello world")
 ```
 ```python
+# ex1.0.1 Python Traceback error report
+print(hello world")
+# Output:   
+#     File "C:\example.py", line 1
+#     print(hello world")
+#                 ^
+# SyntaxError: invalid syntax
+```
+```python
 # ex1.0.2 Python comments
 # This is a single line comment
 
@@ -29,9 +39,25 @@ x = "hello world"
 print(x)
 ```
 ```python
+# ex1.0.3 Printing a Variable - Error Traceback
+x = "hello world"
+print(y)
+# Output:
+#   Traceback (most recent call last):
+#   File "C:\example.py", line 2, in <module>
+#   print(y)
+# NameError: name 'y' is not defined
+```
+```python
 # ex1.0.4 Printing a Variable - Integer (int)
 x = 1
 print(x)
+```
+```python
+# ex1.0.3 Printing a Variable - method string functions
+x = "hello world"
+print(x.title(), x.upper(), x.lower())
+# Output: Hello World HELLO WORLD hello world
 ```
 ### Data Types
 

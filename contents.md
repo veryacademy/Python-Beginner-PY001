@@ -2,11 +2,12 @@
 
 001
 1. Print() Function
-2. Variables
-3. Introducing Data Types
-4. Basic Calculation Operands
-5. String Concatenation
-6. The Print Function Syntax
+2. Python Trace-back error reporting
+3. Variables
+4. Introducing Data Types
+5. Basic Calculation Operands
+6. String Concatenation
+7. The Print Function Syntax
 
 * Challenge - 1-7
 
