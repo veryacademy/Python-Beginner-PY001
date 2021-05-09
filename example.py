@@ -1,18 +1,13 @@
-# Troubleshooting Challenge 1
-print("Hello World")
+pw = "notsafe"
+username = "zander"
 
-# Troubleshooting Challenge 2
-x = "zander"
-y = 1
-print(x + str(y))
-print(x + " is " + str(y))
+y = input("Enter your username: ")
+z = input("Enter your password: ")
 
-# Troubleshooting Challenge 3
-x = "first name: zander"
-y = "surname: park"
-print(x + "\n" + y)
-
-
+if y == username and z == pw:
+	print("You have access")
+else: 
+    print("Sorry, please try again")
 
 
 

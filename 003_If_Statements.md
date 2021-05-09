@@ -21,7 +21,7 @@
 if condition:           
    # Statements to execute if
    # condition is true
-    print(True)
+    print("True")
 
 # Comparing two values, the expression is evaluated
 # Python returns the Boolean answer (True or False)
@@ -81,7 +81,7 @@ if x == y:
 # Booleans represent one of two values: True or False.
 x = True
 y = False
-print(r"{x},{y}")
+print(f"{x},{y}")
 ```
 ```python
 # They can also represent 1 and 0
@@ -120,7 +120,13 @@ if 1 == 1 or 2 == 2 or 3 == 3:
 
 ### If...Else
 ---
+```python
+# Without else - program continues
+if True:
+    print("True")
 
+print("Another Print")
+```
 ```python
 age = int(input("Enter your age: "))
 requiredAge = 18
@@ -173,7 +179,7 @@ Create an application which will check the users password they enter to the pass
 
 ### Extension - Username Matching
 
-Extending the password matching feature, only users who correctly enter the password and called by the name of zander should have access to the secret code! Extend the application to allow users to input their age and name as well as the password. If usernames and passwords match correctly print out - you have access, if not, let the user know they can not enter.
+Extending the password matching feature, only users who correctly enter the password and called by the name of zander should have access to the secret code! Extend the application to allow users to input their name as well as the password. If usernames and passwords match correctly print out - you have access, if not, let the user know they can not enter.
 
 ### **Challenge 2 - Coin Levels**
 
@@ -205,4 +211,17 @@ if x == y:
 	print("Correct password entered")
 else: 
     print("Sorry, please try again")
+
+# Extension Solution
+pw = "notsafe"
+username = "zander"
+
+y = input("Enter your username: ")
+z = input("Enter your password: ")
+
+if y == username and z == pw:
+	print("You have access")
+else: 
+    print("Sorry, please try again")
+
 ```
