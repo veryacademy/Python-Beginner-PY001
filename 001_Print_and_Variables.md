@@ -19,7 +19,7 @@ print("hello world")
 ```
 ```python
 # ex1.0.1 Python Traceback error report
-print(hello world")
+print(hello world") # Error on this line
 # Output:   
 #     File "C:\example.py", line 1
 #     print(hello world")
