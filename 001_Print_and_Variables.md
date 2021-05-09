@@ -3,6 +3,7 @@
 ## Topics:
 
 * Print() Function
+* Whitespace
 * Python Trace-back error reporting
 * Variables
 * Introducing Data Types
@@ -18,7 +19,12 @@
 print("hello world")
 ```
 ```python
-# ex1.0.1 Python Traceback error report
+# ex1.0.2 Whitespace example 
+# Spaces, Tabs, and End-of-line symbols
+print(" hello world ")
+```
+```python
+# ex1.0.3 Python Traceback error report
 print(hello world") # Error on this line
 # Output:   
 #     File "C:\example.py", line 1
@@ -27,19 +33,19 @@ print(hello world") # Error on this line
 # SyntaxError: invalid syntax
 ```
 ```python
-# ex1.0.2 Python comments
+# ex1.0.4 Python comments
 # This is a single line comment
 
 # This is a 
 # multiline comment
 ```
 ```python
-# ex1.0.3 Printing a Variable - String (str)
+# ex1.0.5 Printing a Variable - String (str)
 x = "hello world"
 print(x)
 ```
 ```python
-# ex1.0.3 Printing a Variable - Error Traceback
+# ex1.0.56 Printing a Variable - Error Traceback
 x = "hello world"
 print(y)
 # Output:
@@ -49,14 +55,16 @@ print(y)
 # NameError: name 'y' is not defined
 ```
 ```python
-# ex1.0.4 Printing a Variable - Integer (int)
+# ex1.0.7 Printing a Variable - Integer (int)
 x = 1
 print(x)
 ```
 ```python
-# ex1.0.3 Printing a Variable - method string functions
+# ex1.0.8 Printing a Variable - method string functions
 x = "hello world"
-print(x.title(), x.upper(), x.lower())
+print(x.title())
+print(x.upper())
+print(x.lower())
 # Output: Hello World HELLO WORLD hello world
 ```
 ### Data Types
@@ -74,14 +82,14 @@ We focus on str, int and float initially. If you get time, familiarize yourself 
 ---
 
 ```python
-# ex1.0.5 Example printing different data types
+# ex1.0.9 Example printing different data types
 x = "String" # String
 y = 2 # Integer
 z = 3.1 # Float
 print(x, y, z)
 ```
 ```Python
-# ex1.0.6 Casting data types
+# ex1.1.0 Casting data types
 # Python is strongly and a dynamically typed language
 x = str("String") # String
 y = int(2) # Integer
@@ -89,25 +97,25 @@ z = float(3.1) # Float
 print(x, y, z)
 ```
 ```Python
-# ex1.0.7 Identifying the data type
+# ex1.1.1 Identifying the data type
 x = str("String") # String
 print(type(x))
 # Output <class 'str'>
 ```
 ```python
-# ex1.0.8 Python comma in print function
+# ex1.1.2 Python comma in print function
 x = "hello"
 y = "world"
 print(x,y)
 ```
 ```python
-# ex1.0.9 Python string concatenation
+# ex1.1.3 Python string concatenation
 x = "hello"
 y = "world"
 print(x + y)
 ```
 ```python
-#ex1.0.10 Using basic math operators
+#ex1.1.4 Using basic math operators
 x = 1
 y = 2
 z = 1 + 1
@@ -133,7 +141,7 @@ Python Arithmetic operators to perform common mathematical operations:
 ---
 
 ```python
-# ex1.0.11 String multiplication
+# ex1.1.5 String multiplication
 x = "hello"
 y = "world"
 print((x + y)*5)
@@ -142,31 +150,31 @@ print((x , y)*5)
 # Output: ('hello', 'world', 'hello', 'world', 'hello', 'world', 'hello', 'world', 'hello', 'world')
 ```
 ```python
-# ex1.0.12 Printing multiple data types
+# ex1.1.6 Printing multiple data types
 x = "zander"
 y = 1
 print(x + str(y))
 ```
 ```python
-# ex1.1.013 Printing multiple data types continued
+# ex1.1.7 Printing multiple data types continued
 x = "1"
 y = 1
 print(int(x) + y)
 ```
 ```python
-# ex1.1.14 New line character
+# ex1.1.8 New line character
 print("x") # Behind the scenes \n is used to create
 print("y") # a new line
 print("zander\npark") # Creates a new line after zander
 ```
 ```python
-# ex1.1.15 New line character with variables and concatenation
+# ex1.1.9 New line character with variables and concatenation
 x = "first name: zander"
 y = "surname: park"
 print(x + "\n" + y)
 ```
 ```python
-# ex1.1.16 The print function syntax
+# ex1.2.0 The print function syntax
 # print(object(s), sep=separator, end=end, file=file, flush=flush)
 x = "a"
 y = "b"

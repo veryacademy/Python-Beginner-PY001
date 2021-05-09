@@ -20,19 +20,28 @@ textInput = input("Enter your first name: ")
 numInput = int(input("Enter your age: "))
 ```
 ```python
-#ex2.0.3 Taking input in Python - printing the output
+#ex2.0.3 Input Errors
+numInput = int(input("Enter your age: ")) # Type in a string to simulate an error
+# Output:
+# Traceback (most recent call last):
+#   File "C:\example.py", line 1, in <module>
+#     numInput = int(input("Enter your age: "))
+# ValueError: invalid literal for int() with base 10: 'asd'
+```
+```python
+#ex2.0.4 Taking input in Python - printing the output
 textInput = input("Enter your first name: ")
 numInput = int(input("Enter your age: "))
 print(textInput + str(numInput))
 ```
 ```python
-#ex2.0.4 Taking input in Python - Formatting the print output
+#ex2.0.5 Taking input in Python - Formatting the print output
 textInput = input("Enter your first name: ")
 numInput = int(input("Enter your age: "))
 print("Name: " + textInput + "\n" + "Age: " + str(numInput))
 ```
 ```python
-#ex2.0.5 String Formatting - f-Strings
+#ex2.0.6 String Formatting - f-Strings
 textInput = input("Enter your first name: ")
 numInput = int(input("Enter your age: "))
 print(f"Name: {textInput} \nAge: {numInput}")

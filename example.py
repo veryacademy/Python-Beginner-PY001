@@ -1,5 +1,4 @@
-x = "hello world"
-print(x.title(), x.upper(), x.lower())
+numInput = int(input("Enter your age: "))
 
 
 
