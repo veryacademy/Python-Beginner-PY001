@@ -4,7 +4,7 @@
 
 1. If
 2. Comparison Operators
-3. Booleans
+3. The Boolean Data Type
 4. Python Logical Operators
 5. If..Else
 6. If..Elif..Else
@@ -197,8 +197,7 @@ print(f"Remaining pizza slices: {remaining}")
 ---
 
 ```python
-# Challenge 1 - Matching passwords
-
+# Challenge 1 Solution - Matching passwords
 x = "notsafe"
 y = input("Enter your password: ")
 

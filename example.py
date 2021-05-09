@@ -1,8 +1,16 @@
-x = 1
-y = 2
-z = 3
-print(x,y,z, sep=",")
+# Troubleshooting Challenge 1
+print("Hello World")
 
+# Troubleshooting Challenge 2
+x = "zander"
+y = 1
+print(x + str(y))
+print(x + " is " + str(y))
+
+# Troubleshooting Challenge 3
+x = "first name: zander"
+y = "surname: park"
+print(x + "\n" + y)
 
 
 

@@ -7,6 +7,7 @@
 * Python Trace-back error reporting
 * Variables
 * Introducing Data Types
+* Specify a Variable Type - Python Casting
 * Basic Calculation Operands
 * String Concatenation
 * The Print Function Syntax
@@ -200,6 +201,29 @@ Use the previous code examples to help you complete the code challenges:
 6. Print out multiple variables separated by a comma (,) defined by the sep parameter (demonstrated in ex1.1.16) on one line.
 7. Create a new variable and store a string. Print the variable so that it outputs 5 times, each time on a new line.
 
+---
+
+### **Troubleshooting challenges**
+Troubleshoot and fix the following code examples:
+
+```python
+# Troubleshooting Challenge 1
+print(Hello + World)
+```
+```python
+# Troubleshooting Challenge 2
+x = "zander"
+y = 1
+print(x + y)
+print(x + " is " + str(y))
+```
+```Python
+# Troubleshooting Challenge 3
+x = "first name: zander"
+y = "surname: park"
+print(x + "\n" + Y)
+```
+
 ### Solutions
 ---
 ```python
@@ -243,4 +267,21 @@ print(x,y,z, sep=",")
 # Challenge 7 Solution
 x = "a"
 print((x+"\n")*5)
+```
+```python
+# Solution - Troubleshooting Challenge 1
+print("Hello World")
+```
+```python
+# Solution - Troubleshooting Challenge 2
+x = "zander"
+y = 1
+print(x + str(y))
+print(x + " is " + str(y))
+```
+```python
+# Solution - Troubleshooting Challenge 3
+x = "first name: zander"
+y = "surname: park"
+print(x + "\n" + y)
 ```
