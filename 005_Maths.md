@@ -33,6 +33,16 @@ print(num3)
 print( round(num1,2) )
 ```
 ```Python
+# Assignment Operators besides the = operator
+# Shorthand combinations
+x = 1
+x += 2
+x -= 2
+x *= 2
+print(num3)
+print()
+```
+```Python
 check_int = isinstance(num1, int)
 print(check_int)
 

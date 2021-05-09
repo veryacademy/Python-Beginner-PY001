@@ -60,7 +60,7 @@ x = 1
 print(x)
 ```
 ```python
-# ex1.0.8 Printing a Variable - method string functions
+# ex1.0.8 Printing a Variable - functions to manipulate strings
 x = "hello world"
 print(x.title())
 print(x.upper())
@@ -118,6 +118,7 @@ print(x + y)
 #ex1.1.4 Using basic math operators
 x = 1
 y = 2
+# First Python evaluate the expression on the right
 z = 1 + 1
 print(x + y)
 print(x - y)
@@ -154,6 +155,7 @@ print((x , y)*5)
 x = "zander"
 y = 1
 print(x + str(y))
+print(x + " is " + str(y))
 ```
 ```python
 # ex1.1.7 Printing multiple data types continued
@@ -191,15 +193,52 @@ print(x, y, z, end=' ++++')
 Use the previous code examples to help you complete the code challenges:
 ### **Challenge 1-7**
 1. Get comfortable with your environment. Output hello world (if on Windows) using the command prompt start > CMD, the Python IDLE and in the Visual studio code editor terminal.
-2. Create 2 new variables, name and surname. Print the variables so that they appear of individual lines.
-3. Create a third variable, age. Print the age to appear below the surname
+2. Create 2 new variables, name and surname. Print the variables so that they appear of individual lines and so that the first letter is capitalized.
+3. Create a third variable, age. Print the age to appear below the surname.
 4. Create name, surname and age variables for a new person.
-5. Calculate the total age of person 1 + person 2 and print the calculated value
-6. Print multiple variables separated by a comma (,) defined by the sep parameter (demonstrated in ex1.1.16)
+5. Calculate the total age of person 1 + person 2 and print the calculated value.
+6. Print out multiple variables separated by a comma (,) defined by the sep parameter (demonstrated in ex1.1.16) on one line.
 7. Create a new variable and store a string. Print the variable so that it outputs 5 times, each time on a new line.
 
 ### Solutions
 ---
+```python
+# Challenge 1 Solution
+print("Hello World")
+```
+```python
+# Challenge 2 Solution
+name = "Zander"
+surname = "Park"
+print(name, "\n" + surname)
+```
+```python
+# Challenge 3 Solution
+name = "Zander"
+surname = "Park"
+age = "20"
+print(name, "\n" + surname, "\n" + age)
+```
+```Python
+# Challenge 4-5 Solution
+name1 = "Zander"
+surname1 = "Park"
+age1 = 20
+name2 = "Xander"
+surname2 = "Park"
+age2 = 20
+total_age = age1 + age2
+print(name1, "\n" + surname1, "\n" + str(age1))
+print(name2, "\n" + surname2, "\n" + str(age2))
+print("Total age =", str(total_age))
+```
+```Python
+# Challenge 6 Solution
+x = 1
+y = 2
+z = 3
+print(x,y,z, sep=",")
+```
 ```python
 # Challenge 7 Solution
 x = "a"
