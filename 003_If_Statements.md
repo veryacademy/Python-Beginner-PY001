@@ -211,8 +211,9 @@ if x == y:
 	print("Correct password entered")
 else: 
     print("Sorry, please try again")
-
-# Extension Solution
+```
+```python
+# Extension Solution - Username Matching 
 pw = "notsafe"
 username = "zander"
 
