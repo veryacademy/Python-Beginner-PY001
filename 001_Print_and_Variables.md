@@ -46,7 +46,7 @@ x = "hello world"
 print(x)
 ```
 ```python
-# ex1.0.56 Printing a Variable - Error Traceback
+# ex1.0.6 Printing a Variable - Error Traceback
 x = "hello world"
 print(y)
 # Output:
