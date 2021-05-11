@@ -3,12 +3,14 @@
 ## Topics:
 
 1. If
-2. Comparison Operators
-3. The Boolean Data Type
-4. Python Logical Operators
-5. If..Else
-6. If..Elif..Else
-7. Nested If
+2. Whitespace / Indentation
+3. Pass
+4. Comparison Operators
+5. The Boolean Data Type
+6. Python Logical Operators
+7. If..Else
+8. If...Elif...Else
+9. Nested If
 
 * Challenge - Username / Password Checker
 * Challenge - Coin Tiers
@@ -22,11 +24,18 @@ if condition:
    # Statements to execute if
    # condition is true
     print("True")
-
+```
+```python
 # Comparing two values, the expression is evaluated
 # Python returns the Boolean answer (True or False)
 if 1 == 1:
     print("True")
+```
+```python
+# Using pass as placeholders
+# if can not be empty
+if b > a:
+  pass
 ```
 
 ### Comparison Operators
@@ -91,6 +100,9 @@ x = int(True)
 print(x)
 ```
 ```python
+print(2 < 5)
+```
+```python
 # Evaluate any value, and give you True or False in return
 print(bool("Hello World"))
 print(bool(1))
@@ -121,6 +133,14 @@ if 1 == 1 or 2 == 2 or 3 == 3:
 ### If...Else
 ---
 ```python
+if condition:
+    # true-block
+    # when the condition evaluates to True
+else:
+    # false-block
+    # when the condition evaluates to False
+```
+```python
 # Without else - program continues
 if True:
     print("True")
@@ -148,13 +168,44 @@ if int == 1:
   print("This is true")
 elif int == 5:
   print(str(int) + " is the number")
+elif int == 15:
+  print(str(int) + " is the number")
 else: 
   print("Sorry we haven't matched the number")
 ```
+```python
+age = int(input("Enter your age: "))
+requiredAge = 18
 
+if age >= requiredAge and age < 60:
+    print("you can start the course now")
+elif age >= 60:
+    print("you are eligible for discount on courses")
+elif age == 30:
+    print("you are eligible for half price courses")
+else:
+    years_to_go = requiredAge % age
+    print(f"Sorry you have {years_to_go} more years to wait")
+```
 ### Nested If
 ---
 
+```python
+age = int(input("Enter your age: "))
+requiredAge = 18
+
+if age >= requiredAge and age < 60:
+    print("you can start the course now")
+
+    if age == 30:
+        print("you are eligible for discount on the courses")    
+
+elif age >= 60:
+    print("you are eligible for discount on courses")
+else:
+    years_to_go = requiredAge % age
+    print(f"Sorry you have {years_to_go} more years to wait")
+```
 ```python
 int = 1000
 
@@ -170,6 +221,20 @@ elif int >= 1000:
 else: 
   print("Sorry lets try again")
 ```
+
+### Short Hand
+---
+```python
+# Short Hand If
+if x > y: print("x is greater than y")
+```
+```python
+# Short Hand If ... Else
+x = 10
+y = 20
+print("x") if a > b else print("y")
+```
+
 ## 003 Code Challenges
 ---
 Use the previous code examples to help you complete the code challenges
@@ -225,4 +290,28 @@ if y == username and z == pw:
 else: 
     print("Sorry, please try again")
 
+```
+```python 
+# Challenge 2 Solution - Coin Challenge
+x = int(input("Amount of coins: "))
+
+if x >= 0 and x <= 20:
+    print("Bronze")
+elif x >= 21 and x <= 40:
+    print("Silver")
+elif x >= 41:
+    print("Gold")
+else:
+    print("Sorry type in a correct number")
+```
+```python 
+# Challenge 3 Solution - Pizza slices 
+pizza = 12
+slices = int(input("How many slices have you eaten?: "))
+
+if slices < 0 or slices > 12:
+    print("Sorry you entered the wrong amount")
+else:
+    remaining = pizza - slices
+    print(f"Remaining pizza slices: {remaining}")
 ```

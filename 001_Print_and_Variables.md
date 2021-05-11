@@ -20,7 +20,7 @@
 print("hello world")
 ```
 ```python
-# ex1.0.2 Whitespace example 
+# ex1.0.2 Whitespace
 # Spaces, Tabs, and End-of-line symbols
 print(" hello world ")
 ```
@@ -104,7 +104,7 @@ print(type(x))
 # Output <class 'str'>
 ```
 ```python
-# ex1.1.2 Python comma in print function
+#  
 x = "hello"
 y = "world"
 print(x,y)
@@ -152,7 +152,7 @@ print((x , y)*5)
 # Output: ('hello', 'world', 'hello', 'world', 'hello', 'world', 'hello', 'world', 'hello', 'world')
 ```
 ```python
-# ex1.1.6 Printing multiple data types
+# ex1.1.6 Printing multiple data types with concatenation 
 x = "zander"
 y = 1
 print(x + str(y))
@@ -177,7 +177,7 @@ y = "surname: park"
 print(x + "\n" + y)
 ```
 ```python
-# ex1.2.0 The print function syntax
+#  
 # print(object(s), sep=separator, end=end, file=file, flush=flush)
 x = "a"
 y = "b"
@@ -234,7 +234,7 @@ print("Hello World")
 # Challenge 2 Solution
 name = "Zander"
 surname = "Park"
-print(name, "\n" + surname)
+print(name.title(), "\n" + surname.title())
 ```
 ```python
 # Challenge 3 Solution

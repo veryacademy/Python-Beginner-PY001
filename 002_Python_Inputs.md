@@ -69,11 +69,11 @@ print(Age)
 # Troubleshooting Challenge 3
 textInput = input("Enter your first name: ")
 numInput = input("Enter your age: ")
-print(textInput + str(numInput))
+print(textInput + int(numInput))
 ```
 
 #### **2. Pizza Slice Calculator**
-Create a pizza slice calculator which will calculate the amount of slices left to eat after the user enters the number of slices they have already eaten - assume the pizza has a maximum of 12 slices.
+Create a pizza slice calculator which will calculate the number of slices left to eat after the user enters the number of slices they have already eaten - assume the pizza has a maximum of 12 slices.
 
 #### **3. Age Calculator**
 Create an age calculator which will show users age on their next birthday.
@@ -123,4 +123,4 @@ total = (total_before_tax + tax_to_pay)
 
 print("Name: {text_input} \nTotal(Before Tax): {total_before_tax} \nTax {tax_to_pay} \nTotal: {total}")
 
-```
+```tax 
