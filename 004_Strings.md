@@ -5,45 +5,96 @@
 
 ### Code Examples
 ---
+
 ```python
+#ex4.0.1 New line
+text = "I am 10 \nyears old today"
+print(text)
+```
+```python
+\'	Single Quote	
+\\	Backslash	
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace
+```
+```python
+#ex4.0.2 Python escape character Example 1
 print("This is a string")
 print("This is a \"string\"")
 print('This is a \'string\'')
 print("What about \\")
 ```
 ```python
-num = 1
-text = "I am"
-print(text + " " + str(num))
+#ex4.0.3 Escape Character Example 2
+x = "Hello \bWorld!"
+print(x) 
+x = "Hello \tWorld!"
+print(x) 
 ```
 ```python
-text = "I am 10 \nyears old today"
-print(text)
-
+#ex4.0.4 Multiline String
 text = """I am 10 
 years old today"""
 print(text)
 ```
 ```python
+#ex4.0.5 Get the character at a position
+x = "Hello"
+print(x[1])
+```
+```python
+#ex4.0.6 Slice a sting
+
+# Slice from start
+x = "Hello"
+print(b[:4])
+
+# Slice within
+x = "Hello"
+print(x[1:4])
+
+# Slice End
+x = "Hello"
+print(x[2:])
+```
+```python
+#ex4.0.6 Return length of string ex1
 text = "I am 10 years old today"
 print(len(text))
-
+```
+```python
+#ex4.0.7 Return length of string ex2
 text = len("I am 10 years old today")
 print(text)
-
+```
+```python
+#ex4.0.8 Modifying Strings 
 text = "hello am 10 years old today"
 print(text.capitalize())
 print(text.upper())
 print(text.lower())
 print(text.title())
-
+```
+```python
+#ex4.0.8 String strip
 text = " hello am 10 years old today "
 print(text.strip(" "))
 ```
-Strings in Python are arrays of bytes
-```Python
-print ("Hello world"[0:2])
+```python
+#ex4.0.9 String Replace
+text = " hello am 10 years old today "
+print(text.replace("10", "12"))
 ```
+
+
+
+
+
+
+
+
 The String Modulo Operator
 ```Python
 'Get %d%% off on %s today only!' % (30, 'bananas')
