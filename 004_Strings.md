@@ -78,13 +78,13 @@ print(text.lower())
 print(text.title())
 ```
 ```python
-#ex4.0.8 String strip
-text = " hello am 10 years old today "
+#ex4.0.9 String strip
+text = " Hello, I am 10 years old today "
 print(text.strip(" "))
 ```
 ```python
-#ex4.0.9 String Replace
-text = " hello am 10 years old today "
+#ex4.1.0 String Replace
+text = "Hello, I am 10 years old today"
 print(text.replace("10", "12"))
 ```
 
