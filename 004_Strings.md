@@ -46,7 +46,6 @@ print(x[1])
 ```
 ```python
 #ex4.0.6 Slice a sting
-
 # Slice from start
 x = "Hello"
 print(b[:4])
@@ -84,25 +83,81 @@ print(text.strip(" "))
 ```
 ```python
 #ex4.1.0 String Replace
-text = "Hello, I am 10 years old today"
-print(text.replace("10", "12"))
+x = "Hello, I am 10 years old today"
+print(x.replace("10", "12"))
 ```
+```python
+#ex4.1.1 find items in a string
+x = "Hello Zander"
+y.find("Zander")
+print(y)
+# Returns 6
+# This is the lowest index in the string where the substring is found
+```
+```python
+#ex4.1.2 returns -1 since the substring is not found
+x= "Hello Zander"
+y = x.find("Zanders")
+print(y)
+```
+```python
+# string.find(substring, start, end)
+x= "Hello Zander"
+y = x.find("Zander", 6, 12)
+print(y)
+```
+```python
+#ex4.1.3 Using find with a conditional statement
+x= "Hello Zander"
+y = x.find("Zander")
 
-
-
-
-
-
-
+if y >= 0:
+  print("Match found")
+else:
+  print("Match not found")
+```
+```python
+#ex4.1.4 find() is limited to strings 
+x= ["a","b"]
+y = x.find("a")
+print(y)
+```
+```python
+#ex4.1.5 index() example
+# Syntax: string.index(substring, start, end) 
+x= ["a","b","c"]
+y = x.index("c")
+print(y)
+```
+```python
+#ex4.1.6 index() raise an error (ValueError)
+x= ["a","b","c"]
+y = x.index("d")
+print(y)
+```
+```python
+#ex4.1.7 Capture error
+x= ["a","b","c"]
+try:
+    y.index("d")
+except ValueError:
+      print("Not found")
+```
+```python
+#ex4.1.7 Count substring
+x = "How may apples are there is an apple cart?"
+y = x.count("apple")
+print(y)
+```
 
 The String Modulo Operator
 ```Python
-'Get %d%% off on %s today only!' % (30, 'bananas')
 print('Hello, my name is %s.' % 'Graham')
+print('Get %d%% off on %s today only!' % (30, 'bananas'))
 ```
 The String .format() Method: Arguments
 ```Python
-print('%d %s cost $%.2f' % (6, 'bananas', 1.74))
+print('{} {} cost ${}'.format(6,'bananas',1.74))
 ```
 Using keyword arguments
 ```Python
@@ -112,6 +167,8 @@ print('{quantity} {item} cost ${price}'.format(quantity=6,item='bananas',price=1
 x = "a"
 print(f"Hey {x}")
 ```
+
+
 ## 003 Code Challenges
 ---
 Use the previous code examples to help you complete the code challenges
