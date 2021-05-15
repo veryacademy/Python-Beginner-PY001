@@ -1,7 +1,6 @@
-# Python Strings
+# Python Introducing numbers and math
 
-## What are we going to learn
-  
+## Topics:
 * \+ Addition
 * \- Subtraction
 * \* multiplication
@@ -12,6 +11,7 @@
 ### Code Examples
 ---
 ```python
+# ex5.0.1 Simple calculations
 print(1+0)
 print(2-1)
 print(3*37)
@@ -20,60 +20,49 @@ print(10//6)
 print(10%3)
 ```
 ```Python
-import math
-print(math.sqrt(4))
-pi = math.pi
-print(pi)
+# ex5.0.2 Performing simple calculations
+x = float(1.2312321)
+y = int(1)
+z = x + y
+
+check = isinstance(z, float)
+print(check)
+print(z)
 ```
 ```Python
-num1 = float(1.2312321)
-num2 = int(1)
-num3 = num1 + num2
-print(num3)
-print( round(num1,2) )
-```
-```Python
+# ex5.0.3 Shorthand combinations
 # Assignment Operators besides the = operator
-# Shorthand combinations
 x = 1
 x += 2
 x -= 2
 x *= 2
-print(num3)
-print()
+print(x)
 ```
-```Python
-check_int = isinstance(num1, int)
-print(check_int)
+```python
+# ex5.0.4 Order of operations
+B - Brackets first
+O - Orders (i.e. Powers and Square Roots, etc.)
+DM - Division or Multiplication (left-to-right)
+AS - Addition or Subtraction (left-to-right)
 
-if check_int:
-    print("Float detected")
-else:
-    print("Float not detected")
-```
-How Do I Remember It All ... ? BODMAS !
-
-B
-
-Brackets first
-
-O
-
-Orders (i.e. Powers and Square Roots, etc.)
-
-DM
-
-Division and Multiplication (left-to-right)
-
-AS
-
-Addition and Subtraction (left-to-right)
-
-```Python
 print(1+10*10) # M-A = 101
 print(10*1+10) # M-A = 20
 print(10*(1+10)) # B-M = 110
 print(10/2*(1+10)) # B-D-M = 55
+```
+```Python
+# ex5.0.5 Number rounding
+x = 1.45123123
+print(round(x,2))
+print(format(x,'.2f'))
+```
+```Python
+# ex5.0.6 Python math library
+import math
+x = math.pi
+print(x)
+x = math.sqrt(4)
+print(x)
 ```
 
 ## 005 Code Challenges
@@ -82,11 +71,14 @@ Use the previous code examples to help you complete the code challenges
 
 ### **Task 1-4**
 1. By default python shows PI to 15 places. Using round print PI to output with only 2 decimal places.
-2. Create a product sales calculator. The user will input a price of a product and the programme should calculate the price of the product minus the sale discount of 10%.
-3. If you haven't done so already, using hte BODMAS principle create the calculation for the discounted price with one calculation.
+2. Create a product sales calculator. The user will input a price of a product and the programme should calculate the price of the product minus the sale discount of 20%.
+3. If you haven't done so already, using the BODMAS principles create the calculation for the discounted price with one calculation.
 4. Ask the user to enter the radius of a circle
 (centre point to the edge). The programme should work out the area of the circle (π*radius2). Round the answer to two decimal places.
 5. Build a simple calculator that allows user to type in two numbers and the operation that they wish to perform, + - / or *. Perform the calculation and print the result.
+
+### Solutions
+---
 
 ```Python
 original = float(input("Enter the amount: "))
