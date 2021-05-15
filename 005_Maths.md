@@ -1,12 +1,11 @@
 # Python Introducing numbers and math
 
 ## Topics:
-* \+ Addition
-* \- Subtraction
-* \* multiplication
-* ** Power
-* // Whole number division
-* % Finds the remainder
+* Simple calculations
+* Shorthand combinations
+* Order of operations
+* Number rounding
+* Python math library
 
 ### Code Examples
 ---
@@ -83,7 +82,6 @@ Use the previous code examples to help you complete the code challenges
 ```Python
 original = float(input("Enter the amount: "))
 discount = original / 100 * 10
-# Format Converts to string
 newprice = format(original - discount, '.2f')
 print("£" + str(newprice))
 print("£" + newprice)
@@ -91,16 +89,17 @@ print("£" + newprice)
 ```Python
 original = float(input("Enter the amount: "))
 discount = original - original / 100 * 10 
-# Format Converts to string
 newprice = format(discount, '.2f')
 print("£" + newprice )
 ```
 ```Python
 import math
 radius = int(input("Enter the radius: "))
+
 area1 = round(math.pi*(radius**2), 2)
 # or
 area2  = format(math.pi*(radius**2), '.2f')
+
 print("The area: " + str(area1))
 print("The area: " + str(area2))
 print("The area: {}".format(area1))
