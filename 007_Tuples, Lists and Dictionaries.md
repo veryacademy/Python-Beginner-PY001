@@ -1,14 +1,15 @@
-# Tuples, Lists and Dictionaries
+# Python Structured Data (Tuples, Lists and Dictionaries)
 So far, we have used variables that can store a single item of data in them.
 
-## Tuples
+## Topics:
+
+### Tuples
 Once a tuple is defined you cannot change what is stored in it.
 
-## List 
-The contents of a list can be changed while the program is running and lists are one of
-the most common ways to store a collection of data under one variable name in Python. List items are ordered, changeable, and allow duplicate values.
+### List 
+The contents of a list can be changed while the program is running and lists are one of the most common ways to store a collection of data under one variable name in Python. List items are ordered, changeable, and allow duplicate values.
 
-## Dictionaries
+### Dictionaries
 The contents of a dictionary can also be changed while the program is running. Each
 value is given an index or key you can define to help identify each piece of data. This index
 will not change if other rows of data are added or deleted, unlike lists where the position of
@@ -18,6 +19,7 @@ the items can change and therefore their index number will also change.
 ### Code Examples
 ---
 ```python
+# ex7.0.1
 item_tuple = ("rock","paper","scissors",)
 print(item_tuple.index("rock"))
 print(item_tuple.index("paper"))

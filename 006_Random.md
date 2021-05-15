@@ -58,6 +58,14 @@ import random
 x = [1,2,3,4,5,6,7,8]
 y = random.sample(x, 2)
 print(y)
+# space
+print(*y)
+# comma
+print(*y, sep = ", ") 
+# new line
+print(*y, sep = "\n")
+# integers to string
+print (str(y)[1:-1])
 ```
 
 ### **Task 1-4**
