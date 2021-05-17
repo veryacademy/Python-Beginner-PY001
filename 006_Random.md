@@ -122,3 +122,11 @@ elif choice == "scissors":
 else:
     print("You did not enter a valid option")
 ```
+```python
+# Challenge 3 Solution
+import random
+
+x = [1,2,3,4,5,6,7,8,9,10]
+y = random.sample(x, 6)
+print(*y)
+```
