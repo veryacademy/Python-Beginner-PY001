@@ -54,6 +54,7 @@ print(10/2*(1+10)) # B-D-M = 55
 x = 1.45123123
 print(round(x,2))
 print(format(x,'.2f'))
+print("Price" + format(x,'.2f')) # Converts to string
 ```
 ```Python
 # ex5.0.6 Python math library
@@ -73,12 +74,17 @@ Use the previous code examples to help you complete the code challenges
 2. Create a product sales calculator. The user will input a price of a product and the programme should calculate the price of the product minus the sale discount of 20%.
 3. If you haven't done so already, using the BODMAS principles create the calculation for the discounted price with one calculation.
 4. Ask the user to enter the radius of a circle
-(centre point to the edge). The programme should work out the area of the circle (π*radius2). Round the answer to two decimal places.
+(centre point to the edge). Print out the area of the circle (π*radius2). Round the answer to two decimal places.
 5. Build a simple calculator that allows user to type in two numbers and the operation that they wish to perform, + - / or *. Perform the calculation and print the result.
 
 ### Solutions
 ---
-
+```Python
+# Challenge 1 Solution
+import math
+x = math.pi
+print(round(x,2))
+```
 ```Python
 original = float(input("Enter the amount: "))
 discount = original / 100 * 10
@@ -106,18 +112,18 @@ print("The area: {}".format(area1))
 print('The area: %s %s' % (area1, 'well done'))
 ```
 ```Python
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
-choice = input("Enter the operation +,-,/,*: ")
+x = float(input("Type in a number: "))
+y = float(input("Type in another number: "))
+z = input("+ - / *: ")
 
-if choice == "+":
-    result = num1 + num2
-if choice == "-":
-    result = num1 - num2
-if choice == "/":
-    result = num1 / num2
-if choice == "*":
-    result = num1 * num2
-
-print(result)
+if z == "+":
+  print(x + y)
+elif z == "-":
+  print(x - y)
+elif z == "/":
+  print(x / y)
+elif z == "*":
+  print(x * y)
+else:
+  print("you did not type in a correct operator")
 ```
