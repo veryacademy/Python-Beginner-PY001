@@ -34,22 +34,103 @@ print(item_tuple)
 print(item_tuple[0])
 print(item_tuple[1])
 ```
-
-
-
 ```python
-item_list = ["rock","paper","scissors"]
-print(item_list)
-print(item_list[1])
-print(item_list[2])
+# ex7.0.3 # Tuple Errors
+# Must include a trailing comma if 1 item
+item_tuple = (1,)
+print(item_tuple)
+# Error - Tuple is immutable
+item_tuple[0] = 1
+print(item_tuple)
 ```
 ```python
+# ex7.0.4 Loop and print a tuple
+item_tuple = (1,2,3)
+for item_tuple in item_tuple:
+  print(item_tuple)
+```
+```python
+# ex7.0.5 Over write a tuple
+items = (1, 2)
+print("Original Numbers:")
+for items in items:
+  print(items)
+items = (3, 4)
+print("\nModified Numbers:")
+for items in items:
+  print(items)
+```
+```python
+# ex7.0.6 List with strings
+item_list = ["rock","paper","scissors"]
+print(item_list)
+print(item_list[0])
+print(item_list[1])
+print(item_list[2])
+print(item_list.index("rock"))
+```
+```python
+# ex7.0.7 Lists can contain different data types
+item_list = [1,2,"zander"]
+print(item_list)
+print(item_list[0])
+print(item_list[1])
+print(item_list[2])
+print(item_list.index(1))
+```
+```python
+# ex7.0.7 Length of list
+item_list = [1,2,"zander"]
+print(len(item_list))
+```
+```python
+# ex7.0.8 Create a list using the list() Constructor
+new_list = list(("a", "b", "c")) # double round-brackets
+print(new_list)
+```
+```python
+# ex7.0.9 last item and range of indexes
+item_list = [1,2,"zander"]
+print(item_list[1:2])
+print(item_list[-1])
+```
+```python
+# ex7.0.10 Check items in list
+item_list = [1,2,"zander"]
+if "zander" in item_list:
+  print(f"Hello zander")
+```
+```python
+# ex7.0.11 Add new item to list
+item_list = [1,2,"zander"]
 item_list.append(input("Add a new item: "))
 print(item_list)
 ```
 ```python
-print(len(item_list))
+# ex7.0.12 Change items in list
+item_list = [1,2,"zander"]
+item_list[0] = 10 
+print(item_list)
 ```
+```python
+# ex7.0.13 Remove item in list
+item_list = [1,2,"zander"]
+item_list.remove(1)
+item_list.remove(input("Remove item: "))
+print(item_list)
+```
+```python
+# ex7.0.14 Print list items one by one
+item_list = [1,2,3]
+for x in item_list:
+  print(x)
+```
+
+
+
+
+
+
 ```python
 print(sorted(item_list))
 ```
