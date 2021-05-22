@@ -1,10 +1,10 @@
 # Python Structured Data (Tuples, Lists and Dictionaries)
-So far, we have used variables that can store a single item of data in them.
+So far, we have used variables that can store a single item of data in them. Python provides 4 built-in data types that we can use to store collections of data, Tuple, List, Set, and Dictionary, each all having different features.
 
 ## Topics:
 
 ### Tuples
-Once a tuple is defined you cannot change what is stored in it.
+Once a tuple is defined you cannot change what is stored in it. A tuple is a collection that is ordered and Immutable (can not be changed) Tuples are written with round brackets.
 
 ### List 
 The contents of a list can be changed while the program is running and lists are one of the most common ways to store a collection of data under one variable name in Python. List items are ordered, changeable, and allow duplicate values.
@@ -19,14 +19,24 @@ the items can change and therefore their index number will also change.
 ### Code Examples
 ---
 ```python
-# ex7.0.1
-item_tuple = ("rock","paper","scissors",)
+# ex7.0.1 # Tuple with stings
+item_tuple = ("rock","paper","scissors")
+print(item_tuple)
 print(item_tuple.index("rock"))
 print(item_tuple.index("paper"))
+print(item_tuple[0])
+print(item_tuple[1])
+```
+```python
+# ex7.0.2 # Tuple with Numbers
+item_tuple = (1,2,3)
 print(item_tuple)
 print(item_tuple[0])
 print(item_tuple[1])
 ```
+
+
+
 ```python
 item_list = ["rock","paper","scissors"]
 print(item_list)
