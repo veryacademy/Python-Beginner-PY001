@@ -81,9 +81,6 @@ for x in a:
         print(x, y)
 ```
 
-
-
-
 ## 009 Code Challenges
 ---
 Use the previous code examples to help you complete the code challenges:
