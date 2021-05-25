@@ -11,7 +11,7 @@ So far, we have used variables that can store a single item of data in them. Pyt
 ---
 
 ```python
-# ex7.0.1 # Tuple with stings
+# ex7.0.1 Tuple with stings
 item_tuple = ("rock","paper","scissors")
 print(item_tuple)
 print(item_tuple.index("rock"))
@@ -20,14 +20,14 @@ print(item_tuple[0])
 print(item_tuple[1])
 ```
 ```python
-# ex7.0.2 # Tuple with Numbers
+# ex7.0.2 Tuple with Numbers
 item_tuple = (1,2,3)
 print(item_tuple)
 print(item_tuple[0])
 print(item_tuple[1])
 ```
 ```python
-# ex7.0.3 # Tuple Errors
+# ex7.0.3 Tuple Errors
 # Must include a trailing comma if 1 item
 item_tuple = (1,)
 print(item_tuple)
