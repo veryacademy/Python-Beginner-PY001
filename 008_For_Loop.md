@@ -85,7 +85,7 @@ for x in a:
 ---
 Use the previous code examples to help you complete the code challenges:
 
-1. Let's put our new knowledge to the test by creating a number guessing game. First randomly create a number between 1-20, or your preferred range. Now let's ask the user to type in a number between the number range we have selected. The user should be give 4 turns or chances to guess the number. 
+1. Let's put our new knowledge to the test by creating a number guessing game. First randomly create a number between 1-20, or your preferred range. Now let's ask the user to type in a number between the number range we have selected. The user should be given 4 turns or chances to guess the number. 
 
 Just before the last guess print:
 
