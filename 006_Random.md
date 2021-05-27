@@ -71,7 +71,7 @@ print (str(y)[1:-1])
 ## 006 Code Challenges
 ---
 
-### **Task 1-4**
+### **Task 1-3**
 1. Create a random number game. Ask the user to input a number between 1 and 10. Generate a random number between 1 and 10 and check to see if the users and random number matches. If the do notify the user they have won, else ask the user to try again.
 2. Create a rock, scissors, paper game.
 3. Create a Lottery Picker which picks and prints 6 numbers from the list provided.

@@ -186,7 +186,7 @@ Use the previous code examples to help you complete the code challenges
 
 ### **Task 1-4**
 1. Ask the user to input their username and password twice. If the password is less than 8 characters or does not match, ask the user to re-enter their username and passwords.
-2 Sometimes when a user logs in they are provided part of a telephone number for example ***122 to confirm where the security message will be sent. Create an application that first asked the user to enter a telephone number. Replace all but the last 3 numbers in the telephone number with the * character and print the newly formatted number to the terminal
+2. Sometimes when a user logs in they are provided part of a telephone number for example ***122 to confirm where the security message will be sent. Create an application that first asked the user to enter a telephone number. Replace all but the last 3 numbers in the telephone number with the * character and print the newly formatted number to the terminal
 3. Ask the user to type in their first name and surname. Print the users initials (the first letter of their first and surname) to the terminal.
 4. Use the list shown below to count the number of instances the number 10 occurs. Calculate the combined total.
 ```Python
